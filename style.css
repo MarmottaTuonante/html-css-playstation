@@ -1,0 +1,430 @@
+/* RESET */
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+.ms-button {
+    padding: 12px;
+    border-radius: 25px;
+    display: inline;
+}
+
+.ms-t-white {
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.ms-p-grey {
+    color: #727272;
+}
+
+.btn-red {
+    background-color: #cd3d0f;
+}
+
+.btn-lightblue {
+    background-color: #2d64e6;
+    color: white;
+}
+
+/* HEADER */
+header {
+    height: 110px;
+    display: fixed;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+/* header top */
+.header-top {
+    height: 45px;
+    background-color: black;
+}
+
+.sony-logo {
+    text-align: right;
+    line-height: 45px;
+    margin-right: 10px;
+}
+
+.header-top img {
+    width: 85px;
+}
+
+/* header bottom */
+.header-bottom {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom ul {
+    display: none;
+}
+
+.header-bottom ul li {
+    margin: 0 10px;
+}
+
+.header-bottom ul li img {
+    width: 10px;
+    margin-left: 5px;
+}
+
+.list-items {
+    display: flex;
+    line-height: 65px;
+}
+
+.login {
+    line-height: 65px;
+    margin-right: 1rem;
+}
+
+.burger i {
+    font-size: 30px;
+}
+
+.btn-header {
+    background-color: #363636;
+    color: white;
+}
+
+.header-bottom ul li .lens {
+    width: 25px;
+}
+
+/* MAIN */
+/* jumbo */
+.jumbo {
+    background-image: url('../img/jumbo-bg.png');
+    background-position: top;
+    height: 600px;
+}
+
+.buy-jumbo img {
+    margin-top: 250px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.jumbo p {
+    font-size: 16px;
+}
+
+/* game */
+.game {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.ms-card {
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.ms-padd-border {
+    border: 2px solid #127cd2;
+    padding: 2px;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* intro ps5 */
+
+.intro-ps5 span {
+    color: #127cd2;
+    font-size: 15px;
+}
+
+/* console */
+.console {
+    padding-bottom: 40px;
+}
+
+.console-text {
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ps5-image {
+    margin-bottom: 20px;
+}
+
+.ms-border {
+    border-bottom: 2px solid #2d64e6;
+}
+
+.ps5-items {
+    height: 100%;
+}
+
+.ps5-items img {
+    opacity: 0.6;
+}
+
+.ps5-items img.ms-opacity {
+    opacity: 1;
+}
+
+.ps5-items span {
+    display: none;
+}
+
+.ps5-items span i {
+    font-size: 9px;
+    vertical-align: super;
+}
+
+/* jumbo-bot */
+.jumbo.jumbo-bottom {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+}
+
+.buy-jumbo img.img-jumbo-bottom {
+    margin-top: 70px;
+}
+
+/* game release */
+.releases {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.game.releases p {
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+.game span i {
+    vertical-align: super;
+    font-size: 9px;
+}
+
+.game span {
+    margin-right: 14px;
+}
+
+.game.releases img {
+    margin-bottom: 10px;
+}
+
+/* ps4 section */
+.ps4 {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.ps4-text {
+    margin-bottom: 30px;
+}
+
+.ps4-text h2 i {
+    font-size: 14px;
+    vertical-align: super;
+}
+
+.ps4-text p {
+    margin-bottom: 0;
+}
+
+/* explore Plus */
+.explore {
+    padding: 50px 0;
+}
+
+.ps-plus {
+    background-color: #bebcbb;
+}
+
+.explore p {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.explore-logo {
+    width: 60%;
+}
+
+.btn-ps-plus {
+    background-color: #d9dadc;
+    color: #3569e6;
+}
+
+.explore-img {
+    display: none;
+}
+
+/* discount */
+.discount {
+    padding: 50px 0;
+}
+
+.discount img {
+    margin-bottom: 50px;
+}
+
+/* explore Playstation Now */
+.ps-now {
+    background-color: #161c3b;
+    color: white;
+}
+
+.btn-ps-now {
+    color: black;
+    background-color: white;
+}
+
+/* socials */
+.socials {
+    padding: 60px 0;
+}
+
+.socials h2 {
+    margin-bottom: 60px;
+}
+
+/* FOOTER */
+footer {
+    padding: 70px 0;
+    background-color: #00439c;
+    color: white;
+}
+
+.footer-img {
+    margin-bottom: 30px;
+}
+
+.footer-img img {
+    width: 80px;
+}
+
+.globe {
+    display: inline-block;
+    width: 16px;
+    vertical-align: middle;
+}
+
+.country {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.language {
+    margin-bottom: 30px;
+}
+
+footer ul li a {
+    font-size: 15px;
+}
+
+.sie {
+    width: 120px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer p a {
+    text-decoration: underline;
+}
+
+/* MD */
+@media screen and (min-width: 768px) {
+
+    /* console */
+    .ps5-items span {
+        display: block;
+    }
+
+    .ps5-items img {
+        width: 50%;
+    }
+
+    .ps5-items {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* explorer Plus */
+    .explore-img {
+        display: block;
+    }
+
+    .explore {
+        padding: 0;
+    }
+
+    .explore-logo {
+        margin-top: 15px;
+    }
+
+    .explore p {
+        margin-bottom: 27px;
+    }
+}
+
+/* LG */
+@media screen and (min-width: 992px) {
+
+    /* header bottom*/
+    .header-bottom ul {
+        display: block;
+        display: flex;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    /* jumbo */
+    .buy-jumbo {
+        max-width: 30%;
+    }
+
+    /* explore Playstation plus */
+    .explore-logo {
+        margin-top: 90px;
+    }
+
+    .explore p {
+        margin-bottom: 40px;
+    }
+}
